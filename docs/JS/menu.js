@@ -2,14 +2,12 @@ let datos = {};
 /* const url = "https://api.jsonbin.io/v3/b/67848b56e41b4d34e47677a6";
  mail: carlos.alberto
 const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
-// const url = "http://localhost:3000/menu";
 
 // const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
-// mail: charly.mil
+const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
+// mail:charly.mil
 
 // const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
-
-const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
 
 const $container = document.querySelector(".container");
 
@@ -24,7 +22,7 @@ let $seccion = "",
 
 function llamarDb(url) {
   fetch(url
-    /* , {
+/*     , {
     headers: {
       "X-Access-Key": key,
     },
@@ -32,9 +30,9 @@ function llamarDb(url) {
   )
     .then((resp) => resp.json())
     .then((dato) => {
-      // console.log(dato)
+      console.log(dato)
       // console.log(dato.record.menu);
-      const data = dato.record; //orig = dato.record
+      const data = dato; //orig = dato.record
       // console.log(data)
       // Empezando a armar la estructura de datos
       for (const key in data) {
