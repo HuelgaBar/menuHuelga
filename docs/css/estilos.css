@@ -62,13 +62,23 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: auto 3vw;
+  padding: auto 0;
   margin: 1vh auto;
-  width: 95%;
+  width: 100%;
   background-color: rgb(67, 90, 90);
   border: solid 1px var(--bordeaux);
   border-radius: 10px;
 }
+
+ .hhtipos div{
+  display: flex;
+  justify-content: space-between;
+  /* padding: auto 3vw; */
+  margin: 1vh auto;
+  /* background-color: rgb(67, 90, 90); */
+  border: solid 1px var(--bordeaux);
+  border-radius: 10px;
+} 
 
 .tipos div span {
   padding: 1vw 2vw;
@@ -76,16 +86,18 @@ main {
   padding-right: 2vw; */
 }
 
-.tipos div:nth-child(n + 2) {
+/* .tipos div:nth-child(n + 2) {
   border-top: none;
-}
+} */
 
 .precio {
-  /* font-weight: bold; */
+  display:flex;
   font-size: 0.9rem;
   margin-left: 2vw;
-  text-align: right;
-  width: 43%;
+  text-align: left;
+  width: 45%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .titular {
@@ -93,7 +105,7 @@ main {
 }
 
 .tipo {
-  width: 60%;
+  width: 55%;
   text-align: left;
 }
 
@@ -124,10 +136,12 @@ p .mini {
   /* transition: 1s; */
   overflow: hidden;
   background-color: darkslategray;
-  padding: 0 1vw;
-  width: 95%;
-  margin: auto;
+  padding: 0 2vw;
+  width: 90vw;
+  margin: 2vh 1vw;
   border-radius: 5px;
+  border: solid 1px var(--bordeaux);
+  border-radius: 3vw;
   /* height: 0; */
 }
 
@@ -141,10 +155,13 @@ p .mini {
   min-height: 90vh;
   margin-left: 0;
   list-style: none;
+  padding-bottom: 20vh;
   /* margin: 0; */
 }
 
 .pictures img{
+  border-radius:8vh 3vh 8vh 3vh;
+  margin-top: 2vh;
   max-width: 90%;
 }
 
@@ -164,7 +181,7 @@ p .mini {
 
 footer {
   /* border-top: solid 2px var(--bordeaux); */
-  position: sticky;
+  position: fixed;
   width: 100vw;
   bottom: 0;
   padding-top: 2vh;
@@ -224,9 +241,15 @@ a:visited {
     margin-top: 2vh;
   }
 }
+@media (orientation:landscape){
+  footer{
+    position:inherit
+  }
+}
 .popup {
   display: block;
   position: absolute;
+  padding-bottom: 20vh;
   height: auto;
   width: 100vw;
   background-color: black;
@@ -318,17 +341,13 @@ h2{
 .hh1{
   opacity: 0.85;
   background-color: darkslategrey;
-  width: 45vw;
+  width: 85vw;
   margin:1vw;
   padding:1vw;
   border:solid, 1px, var(--bordeaux);
   border-radius: 1vw;
   /* display:flex; */
 }
-
-/* .hhart{
-  width:35%
-} */
 
 .invisible {
   display: none;
@@ -339,11 +358,18 @@ h2{
   height: auto;
 }
 
-.CERVEZAS{
-  background-image: url(../imagenes/CERVEZAS.jpg);
+.click{
+    animation: agrandarAchicar 1s infinite; 
 }
 
-.TRAGOS{
-  background-image: url(../imagenes/TRAGOS.jpg);
-
+@keyframes agrandarAchicar {
+  0% {
+    transform: scale(1.2); /* Tamaño normal */
+  }
+  40% {
+    transform: scale(1); /* Agrandar */
+  }
+  100% {
+    transform: scale(1.2); /* Volver al tamaño normal */
+  }
 }

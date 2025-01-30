@@ -1,5 +1,11 @@
 let datos = {};
+/* const url = "https://api.jsonbin.io/v3/b/67848b56e41b4d34e47677a6";
+ mail: carlos.alberto
+const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
+// const url = "http://localhost:3000/menu";
+
 const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
+
 const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
 
 const $container = document.querySelector(".container");
@@ -21,9 +27,10 @@ function llamarDb(url) {
   })
     .then((resp) => resp.json())
     .then((dato) => {
-      
-      const data = dato.record; 
-    
+      // console.log(dato)
+      // console.log(dato.record.menu);
+      const data = dato.record; //orig = dato.record
+      // console.log(data)
       // Empezando a armar la estructura de datos
       for (const key in data) {
         const seccionhh = document.createElement("section");
@@ -47,25 +54,20 @@ function llamarDb(url) {
             let $tipos = "";
             let $tiposhh = "";
             datos = data[key][articulo];
+            // console.log(datos);
 
             $precio = "";
 
             //Armando el arreglo
             datos[2].forEach((element, i) => {
-              if (datos[0].includes("INGREDIENTES")) {
-                $tipos += `
-                <span class="tipo">${element[0]} - </span>
-                `;
-                if (i > 0 && i % 3 === 0) {
-                  $tipos += `<br>`;
-                }
-              } else {
+              
                 $tipos += `<div>
               <span class="tipo">${element[0]}</span>
-              <span class="precio">${element[1]}</span>
+              <span class="precio white-space: pre;">${element[1]}</span>
               </div>
               `;
-              }
+            
+              // console.log(element);
 
               if (element[2] != "" && element[2] != "undefined") {
                 // console.log(element[2]);
@@ -94,7 +96,11 @@ function llamarDb(url) {
               document.querySelector(".modal").appendChild(titulohh);
               document.querySelector(".modal").appendChild(seccionhh);
             }
-            
+            // console.log($tipos);
+            // console.log(datos[0]);
+            // console.log(datos[1]);
+            // console.log(datos[2][0][0]);
+            // console.log(datos[2][0][1]);
             seccion.innerHTML += art;
 
             document.querySelector(".menu").appendChild(titulo);
