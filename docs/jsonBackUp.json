@@ -1,0 +1,183 @@
+{
+  "PLATOS": [
+    [
+      "*INGREDIENTES*",
+      "Elegi 4 de estos para tu plato",
+      [
+        ["Jamon", "0"],
+        ["Queso", "0"],
+        ["Lechuga", "0"],
+        ["Tomate", "0"],
+        ["Cheddar", "0"],
+        ["Panceta", "0"],
+        ["Cebolla Caramelizada", "0"],
+        ["Morrón", "0"],
+        ["Champignones", "0"],
+        ["Queso Azul", "0"]
+      ]
+    ],
+    [
+      "HAMBURGUESAS",
+      "Armala como quieras, viene con fritas y cuatro ingredientes a elección",
+      [
+        ["Simple", "$ 7500"],
+        ["Doble", "$ 8700"],
+        ["Triple", "$ 10000"]
+      ]
+    ],
+    [
+      "BONDIOLA XL",
+      "Super sandwich de bondiola en pan de campo de 30 cm, con fritas",
+      [
+        ["Capresse", "$ 11000"],
+        ["Braseada a la Porter", "$ 11000"],
+        ["A la mostaza con cebolla", "$ 11000"]
+      ]
+    ],
+    [
+      "PIZZAS",
+      "  ",
+      [
+        [
+          "  ",
+          "<span class=\"mini\">Media</span><span class=\"mini\">Grande</span>"
+        ],
+        ["Muzza", "$ 4000   $ 7400"],
+        ["Napolitana", "$ 5000   $ 8500"],
+        ["Capresse", "$ 5000   $ 8500"],
+        ["Jamón y morrón", "$ 5000   $ 8500"],
+        ["Roquefort", "$ 5000   $ 8500"],
+        ["Rúcula", "$ 5000   $ 8500"],
+        ["Provoleta", "$ 5000   $ 8500"],
+        ["Cuatro Quesos", "$ 5000   $ 8500"],
+        [
+          "Funghi\n<p class=\"mini\">(muzza, verdeo, panceta, champis)</p>",
+          "$ 5400   $ 9000"
+        ],
+        [
+          "De la Casa\n<p class=\"mini\">(muzza, cheddar, cebolla\ncaramelizada, bondiola desmenuzada, huevo a la plancha)</p>",
+          "$ 10500"
+        ]
+      ]
+    ]
+  ],
+  "BEBIDAS SIN ALCOHOL": [
+    ["AGUA", "Sin gas", [["500 cc", "$ 1800"]]],
+    [
+      "CHOPP DE GASEOSA",
+      "Coca Cola, Sprite, Tónica",
+      [
+        ["Pinta", "$ 1800"],
+        ["Litro", "$ 3600"]
+      ]
+    ],
+    ["Speed", "   ", [["Lata 250 cc", "$ 2000"]]]
+  ],
+  "CERVEZAS": [
+    [
+      "GOLDEN",
+      "La clásica rubia tirada, by BROWNER",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "PORTER",
+      "La negra, con vainilla",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "APA",
+      "Cítrica, fresca, lupulada, ",
+      [
+        ["Pinta", "3600"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "SCOTISH",
+      "Roja y con un tono acaramelado",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "IPA",
+      "Cítrica y frutada",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ]
+  ],
+  "TRAGOS": [
+    [
+      "FERNET",
+      "Branca, el único",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "GIN TONIC",
+      "Fresco, cítrico, con agua tónica",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "GANCIA",
+      "El Americano",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ],
+    [
+      "GARIBALDI",
+      "Campari y jugo de naranja",
+      [
+        ["Pinta", "3500"],
+        ["Litro", "7000"]
+      ]
+    ]
+  ],
+  "POSTRES": [
+    [
+      "PANQUEQUE",
+      "El clásico postre caliente",
+      [
+        ["Manzana al ron", "4000"],
+        ["Dulce de leche", "4000"]
+      ]
+    ]
+  ],
+  "VINOS Y WHISKY": [
+    ["VINO BLANCO", "  ", [["Cosecha Tardía", "$ 7000"]]],
+    [
+      "VINO TINTO",
+      "  ",
+      [
+        ["Elementos malbec", "$ 7000"],
+        ["Benjamín malbec", "$ 7000"],
+        ["Benjamín cabernet S.", "$ 7000"],
+        ["Emilia malbec", "$ 9000"]
+      ]
+    ],
+    [
+      "WHISKY",
+      "  ",
+      [
+        ["Red Label", "$ 6500"],
+        ["Black Label", "$ 8500"]
+      ]
+    ]
+  ]
+}
