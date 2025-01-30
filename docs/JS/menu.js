@@ -4,9 +4,12 @@ let datos = {};
 const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 // const url = "http://localhost:3000/menu";
 
-const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
+// const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
+// mail: charly.mil
 
-const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
+// const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
+
+const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
 
 const $container = document.querySelector(".container");
 
@@ -20,11 +23,13 @@ let $seccion = "",
   arthh = "";
 
 function llamarDb(url) {
-  fetch(url, {
+  fetch(url
+    /* , {
     headers: {
       "X-Access-Key": key,
     },
-  })
+  } */
+  )
     .then((resp) => resp.json())
     .then((dato) => {
       // console.log(dato)
