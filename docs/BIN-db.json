@@ -124,7 +124,7 @@
         ],
         [
           "Cuba Libre<p class=mini>Ron, Coca Cola, limón</p>",
-          "$ 5000  $ 99800",
+          "$ 5000  $ 9800",
           "$ 4000  $ 8000"
         ],
         [
@@ -143,7 +143,7 @@
           ""
         ],
         [
-          "Piel de Iguana\n<p class=mini>Vodka, licor de kiwi, Sprite</p>",
+          "Piel de Iguana\n<p class=mini>Vodka, licor de melón, Sprite</p>",
           "$ 5000  $ 9800",
           "$ 4000  $ 8000  "
         ],
@@ -278,29 +278,29 @@
       "Manzana, Naranja, Pomelo",
       [
         [
-          "Pinta",
+          "Chopp",
           "$ 2300",
           ""
         ]
       ]
     ],
     [
-      "CHOP DE GASEOSA",
+      "CHOPP DE GASEOSA",
       "Coca Cola, Sprite, tónica",
       [
         [
-          "Pinta",
+          "Chopp",
           "$ 2300",
           ""
         ]
       ]
     ],
     [
-      "CHOP DE JUGO",
+      "CHOPP DE JUGO",
       "Pura naranja",
       [
         [
-          "Pinta",
+          "Chopp",
           "$ 2800",
           ""
         ]
@@ -608,7 +608,7 @@
     ],
     [
       "PICADA HUELGA",
-      "Pollo Crispy, Mila de carne, Muzzarelitas, Salchicha a la mostaza, jamón y queso, papas fritas",
+      "Pollo Crispy, Mila de carne, Muzzarelitas, Salchicha a la mostaza, jamón y queso, papas fritas, pan",
       [
         [
           "Con 2 salsas...",
