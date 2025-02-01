@@ -1,30 +1,41 @@
 
 window.addEventListener("DOMContentLoaded", (e) => {
-  // $activas = document.querySelectorAll(".seccion1")
- 
   document.addEventListener("click", (e) => {
-    // console.log(e.target)
-    if(e.target.classList.contains("cerrar")){
+    // e.preventDefault();
+
+    if (e.target.classList.contains("cerrar")) {
       // console.log("cerrar")
       document.querySelector(".popup").classList.add("invisible");
     }
-    if(e.target.classList.contains("hh")){
+    if (e.target.classList.contains("hh")) {
       document.querySelectorAll(".seccion1").forEach((el) => {
-      el.classList.remove("activa");
-    });
-      console.log("abrir")
-      document.querySelector(".popup").classList.remove("invisible")
-      window.scrollTo(0,0)
+        el.classList.remove("activa");
+      });
+      // console.log("abrir");
+      document.querySelector(".popup").classList.remove("invisible");
+      window.scrollTo(0, 0);
     }
-   let $seccion = document.querySelectorAll(`.${e.target.classList[0]}1`);
+    let $seccion = document.querySelectorAll(`.${e.target.classList[0]}1`);
+    // console.log($seccion)
     $seccion.forEach((el) => {
-      if(el != e.target.nextSibling)
-      el.classList.remove("activa");
+      // const initY = el.clientY-ventana.offsetTop
+      // ventana.styleTop = el.clientY - initY+"px"
+      if (el != e.target.parentNode.nextSibling) {
+        function remover() {
+          el.classList.remove("activa");
+        }
+        requestAnimationFrame(remover);
+      }
     });
- 
+
     // console.log(e.target.nextSibling);
-    e.target.nextSibling.classList.toggle("activa");
-    
-    
+    function alternar() {
+      // console.log(e.target.parentNode.nextSibling)
+      e.target.parentNode.nextSibling.classList.toggle("activa");
+    }
+    requestAnimationFrame(alternar);
+    // console.log("activa")
+
+  
   });
 });

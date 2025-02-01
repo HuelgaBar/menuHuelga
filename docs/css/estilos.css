@@ -1,15 +1,13 @@
 :root {
   --bordeaux: #4b0000;
   --bgHTML: rgb(30, 30, 30);
-/*   --bgseccion:rgba(44, 74, 44, 0.6);
-  --bgseccionhh:rgba(44, 74, 44, 0.6); */
   --bgseccion:rgb(23, 42, 23); 
   --bgseccionhh:rgba(23, 42, 23);
-  /* --bgseccionhh:rgba(100, 100, 100, 0.7); */
   --bgsubseccion: rgba(44, 74, 44, 0.7);
   --bgsubseccionhh: rgba(44, 74, 44, 0.7);
   --bgarticulo: rgb(67, 90, 90);
   --bgarticulohh: rgb(67, 90, 90);
+  --time:300ms;
   /* font-size: 16px; */
   text-align: center;
   box-sizing: border-box;
@@ -48,10 +46,11 @@ header {
 
 h3 {
   padding: 0.5vh 0;
-  min-width: 80vw;
+  min-width: 70vw;
+  width:75%;
   background-color: var(--bordeaux);
   border-radius: 5px;
-  margin: 1.5vh auto;
+  margin: 1vh auto;
 }
 
 h4 {
@@ -60,7 +59,8 @@ h4 {
   width: 80%;
   margin: auto;
   border-radius: 5px;
-  margin: 0.5vh auto;
+  margin-top: 0.5vh;
+  /* margin-bottom: 0.5vh; */
 }
 
 main {
@@ -101,6 +101,7 @@ main {
 } */
 
 .precio {
+  white-space: pre;
   display:flex;
   font-size: 0.9rem;
   margin-left: 2vw;
@@ -132,8 +133,10 @@ p .mini {
 }
 
 .seccion1 {
-  display: none;
-  transition: 1000ms;
+  /* display: none; */
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: var(--time);
   overflow: hidden;
   padding: 0.5vh 0;
   background-color: var(--bgseccion);
@@ -142,8 +145,12 @@ p .mini {
 }
 
 .articulo1 {
+  height: 0;
   /* display: none; */
   /* transition: 1s; */
+    transform-origin: top;
+  transform: scaleY(0);
+  transition: var(--time);
   overflow: hidden;
   background-color: var(--bgsubseccion);
   padding: 0 2vw;
@@ -172,6 +179,7 @@ p .mini {
 .pictures img{
   border-radius:8vh 3vh 8vh 3vh;
   margin-top: 2vh;
+  margin-bottom: 3vh;
   max-width: 90%;
 }
 
@@ -219,7 +227,7 @@ footer a {
 }
 
 a {
-  /* animation-duration:500ms; */
+  /* animation-duration:600ms; */
   color: white;
   text-decoration: none;
 }
@@ -234,8 +242,17 @@ a:visited {
 
 .activa {
   display: inherit;
+  transform: scaleY(1);  
+  transition: var(--time);
   height: auto;
   /* transition: 1s; */
+}
+
+.siempreActiva{
+  display: inherit;
+  transform: scaleY(1);  
+  transition: var(--time);
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
