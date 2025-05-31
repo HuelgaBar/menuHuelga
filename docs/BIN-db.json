@@ -11,47 +11,47 @@
         ],
         [
           "Golden",
-          "$ 3800   $ 7500",
-          "$ 2800   $ 5500"
+          "$ 4000   $ 7800",
+          "$ 3000   $ 5800"
         ],
         [
           "Honey",
-          "$ 3800   $ 7500",
-          "$ 2800   $ 5500"
+          "$ 4000   $ 7800",
+          "$ 3000   $ 5800"
         ],
         [
           "Scotish",
-          "$ 3800   $ 7500",
-          "$ 2800   $ 5500"
+          "$ 4000   $ 7800",
+          "$ 3000   $ 5800"
         ],
         [
           "Porter c/ vainilla",
-          "$ 3800   $ 7500",
-          "$ 2800   $ 5500"
+          "$ 4000   $ 7800",
+          "$ 3000   $ 5800"
         ],
         [
           "APA",
-          "$ 4000   $ 7800",
+          "$ 4200   $ 8100",
           "$ 3000   $ 6000"
         ],
         [
           "IPA",
-          "$ 4000   $ 7800",
+          "$ 4200   $ 8100",
           "$ 3000   $ 6000"
         ],
         [
           "Golden c/ frambuesa",
-          "$ 3800   $ 7500",
-          "$ 2800   $ 5500"
+          "$ 4000   $ 7800",
+          "$ 3000   $ 5800"
         ],
         [
           "Doppelbock",
-          "$ 3800   $ 7500",
-          "$ 2800   $ 5500"
+          "$ 4000   $ 7800",
+          "$ 3000   $ 5800"
         ],
         [
           "Doble IPA",
-          "$ 4600   $ 9000",
+          "$ 4500   $ 8800",
           "$ 3500   $ 7000"
         ]
       ]
@@ -70,67 +70,67 @@
         [
           "Fernet\n<p class=mini>Branca, Coca Cola</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Gancia\n<p class=mini>Gancia, Sprite, limón</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Gancia Batido\n<p class=mini>Gancia, azúcar y limón</p>",
-          "$ 5500   $ 10600",
-          "$ 4500   $ 8800"
+          "$ 5200   $ 10000",
+          "$ 4000   $ 8000"
         ],
         [
           "Gancia Americanino\n<p class=mini>Gancia, bitter, tónica</p>",
-          "$ 5500   $ 10600",
-          "$ 4500   $ 8800"
+          "$ 5200   $ 10000",
+          "$ 4000   $ 8000"
         ],
         [
           "Garibaldi\n<p class=mini>Campari, jugo de naranja</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Campari Tonic\n<p class=mini>Campari, tónica, limón</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Gin Tonic\n<p class=mini>Gin tirado, tónica, limón</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Gin Orange\n<p class=mini>Gin tirado, jugo de naranja</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Gin Daisy\n<p class=mini>Gin tirado, granadina, tónica</p>",
-          "$ 5500   $ 10600",
-          "$ 4500   $ 8800"
+          "$ 5200   $ 10000",
+          "$ 4000   $ 8000"
         ],
         [
           "Destornillador\n<p class=mini>Vodka, jugo de naranja</p>",
-          "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 4600   $ 9000",
+          "$ 3300   $ 6500"
         ],
         [
           "Salty Dog\n<p class=mini>Vodka, jugo de pomelo</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Cuba Libre<p class=mini>Ron, Coca Cola, limón</p>",
-          "$ 5500   $ 10600",
-          "$ 4500   $ 8800"
+          "$ 5000   $ 9800",
+          "$ 4000   $ 8000"
         ],
         [
           "Whiscola\n<p class=mini>Whisky, Coca Cola</p>",
           "$ 4600   $ 9000",
-          "$ 3600   $ 7000"
+          "$ 3300   $ 6500"
         ],
         [
           "Negroni\n<p class=mini>Gin tirado, vermouth rosso, bitter</p>",
@@ -144,13 +144,13 @@
         ],
         [
           "Piel de Iguana\n<p class=mini>Vodka, licor de melón, Sprite</p>",
-          "$ 5300   $ 10500",
-          "$ 4500   $ 8800"
+          "$ 5000   $ 9800",
+          "$ 4000   $ 8000"
         ],
         [
           "Laguna Azul\n<p class=mini>Vodka, blue curaçao</p>",
-          "$ 5300   $ 10500",
-          "$ 4500   $ 8800"
+          "$ 5000   $ 9800",
+          "$ 4000   $ 8000"
         ],
         [
           "Mockingbird\n<p class=mini>Tequila, licor de menta, limón, azucar</p>",
@@ -159,37 +159,37 @@
         ],
         [
           "Tequila Sunrise\n<p class=\"mini\">Tequila, jugo de naranja, granadina</p>",
-          "$ 5600   $ 10600",
-          "$ 4500   $ 8800"
+          "$ 5200   $ 10000",
+          "$ 4000   $ 8000"
         ],
         [
           "Jägger Tonic\n<p class=\"mini\">Jäggermeister, tónica</p>",
-          "$ 7000   $ 13800",
+          "$ 7000   $ 136000",
           ""
         ],
         [
           "Mojito\n<p class=\"mini\">Ron, tónica, azúcar, limón, menta</p>",
           "$ 5500          ",
-          "$ 4500          "
+          "$ 4000          "
         ],
         [
           "Caipirinha\n<p class=\"mini\">Cahcaça, azúcar, limón </p>",
           "$ 5500          ",
-          "$ 4500          "
+          "$ 4000          "
         ],
         [
           "Caipiroska\n<p class=\"mini\">Vodka, azúcar, limón</p>",
           "$ 5500          ",
-          "$ 4500          "
+          "$ 4000          "
         ],
         [
           "Submarino\n<p class=\"mini\">Cerveza golden, tequila</p>",
-          "$ 7000          ",
+          "$ 6500          ",
           ""
         ],
         [
           "Boiler Maker\n<p class=\"mini\">Cerveza golden, whisky</p>",
-          "$ 7000          ",
+          "$ 6500          ",
           ""
         ]
       ]
@@ -207,27 +207,27 @@
         ],
         [
           "Smirnoff",
-          "$ 6000   $ 11500",
+          "$ 5300   $ 102000",
           ""
         ],
         [
           "Absolut",
-          "$ 6500   $ 12500",
+          "$ 6000   $ 12000",
           ""
         ],
         [
           "Whisky",
-          "$ 6000   $ 11500",
+          "$ 5300   $ 102000",
           ""
         ],
         [
           "Jäggermeister",
-          "$ 7000   $ 13800",
+          "$ 7000   $ 13600",
           ""
         ],
         [
           "Licor\n<p class=\"mini\">Consulta los sabores</p>",
-          "$ 6000   $ 11500",
+          "$ 5300   $ 102000",
           ""
         ]
       ]
@@ -245,17 +245,17 @@
         ],
         [
           "Smirnoff",
-          "$ 3500          ",
+          "$ 3000          ",
           ""
         ],
         [
           "Absolut",
-          "$ 5000          ",
+          "$ 4500          ",
           ""
         ],
         [
           "Tequila",
-          "$ 3500          ",
+          "$ 3000          ",
           ""
         ]
       ]
@@ -268,7 +268,7 @@
       [
         [
           "500 cc",
-          "$ 2500",
+          "$ 2300",
           ""
         ]
       ]
@@ -279,7 +279,7 @@
       [
         [
           "Chopp",
-          "$ 2500",
+          "$ 2300",
           ""
         ]
       ]
@@ -290,7 +290,7 @@
       [
         [
           "Chopp",
-          "$ 2500",
+          "$ 2300",
           ""
         ]
       ]
@@ -301,7 +301,7 @@
       [
         [
           "Chopp",
-          "$ 3200",
+          "$ 2800",
           ""
         ]
       ]
@@ -312,7 +312,7 @@
       [
         [
           "Lata 250 cc.",
-          "$ 3200",
+          "$ 2800",
           ""
         ]
       ]
@@ -325,7 +325,7 @@
       [
         [
           "Cosecha Tardía",
-          "$ 8500",
+          "$ 7500",
           ""
         ]
       ]
@@ -336,32 +336,32 @@
       [
         [
           "Elementos malbec",
-          "$ 9000",
+          "$ 7500",
           ""
         ],
         [
           "Benjamín malbec",
-          "$ 8500",
+          "$ 7500",
           ""
         ],
         [
           "Benjamín cabernet S.",
-          "$ 8500",
+          "$ 7500",
           ""
         ],
         [
           "Emilia malbec",
-          "$ 11000",
+          "$ 10000",
           ""
         ],
         [
           "Espumante",
-          "$ 8000",
+          "$ 7500",
           ""
         ],
         [
           "Blanco/espumante c/ 2 speed",
-          "$ 13500",
+          "$ 12500",
           ""
         ]
       ]
@@ -390,27 +390,27 @@
       [
         [
           "Solas",
-          "$ 6000",
+          "$ 5800",
           ""
         ],
         [
           "Con adicional\n<p class=\"mini\">A elección</p>",
-          "$ 7200",
+          "$ 6800",
           ""
         ],
         [
           "Salchipapas",
-          "$ 7800",
+          "$ 7500",
           ""
         ],
         [
           "Papas HUELGA\n<p class=\"mini\">Cheddar, panceta, verdeo</p>",
-          "$ 8500",
+          "$ 7800",
           ""
         ],
         [
           "Super Papas\n<p class=\"mini\">Cheddar, panceta, verdeo, 3 huevos estrellados, provo rallado</p>",
-          "$ 9200",
+          "$ 8800",
           ""
         ]
       ]
@@ -421,7 +421,7 @@
       [
         [
           " ",
-          "$ 8000",
+          "$ 7000",
           ""
         ]
       ]
@@ -437,52 +437,52 @@
         ],
         [
           "Muzza",
-          "$ 5500   $ 10000",
+          "$ 5000   $ 9200",
           ""
         ],
         [
           "Napolitana",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Capresse",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Jamón y morrón",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Roquefort",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Rúcula",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Provoleta",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Cuatro Quesos",
-          "$ 6000   $ 11500",
+          "$ 5400   $ 10000",
           ""
         ],
         [
           "Funghi\n<p class=\"mini\">(muzza, verdeo, panceta, champis)</p>",
-          "$ 6500   $ 12500",
+          "$ 6000   $ 11000",
           ""
         ],
         [
           "De la Casa\n<p class=\"mini\">(muzza, cheddar, cebolla\ncaramelizada, bondiola desmenuzada, huevo a la plancha)</p>",
-          "          $ 13500",
+          "          $ 12500",
           ""
         ]
       ]
@@ -493,7 +493,7 @@
       [
         [
           "Sale con fritas",
-          "$ 8000",
+          "$ 7000",
           ""
         ]
       ]
@@ -504,7 +504,7 @@
       [
         [
           " ",
-          "$ 8500",
+          "$ 7500",
           ""
         ]
       ]
@@ -515,12 +515,12 @@
       [
         [
           "Jamón y queso",
-          "$ 8500",
+          "$ 8000",
           ""
         ],
         [
           "Jamón, queso, rúcula, tomate",
-          "$ 10000",
+          "$ 9800",
           ""
         ]
       ]
@@ -536,7 +536,7 @@
         ],
         [
           "Pollo",
-          "$ 1600",
+          "$ 1500",
           ""
         ],
         [
@@ -552,7 +552,7 @@
       [
         [
           " Sale con salsa de verdeo",
-          "$ 9000",
+          "$ 8500",
           ""
         ]
       ]
@@ -573,13 +573,13 @@
       "A la Provenzal",
       [
         [
-          "Porción completa",
-          "$ 12500",
+          "Con fritas",
+          "$ 12000",
           ""
         ],
         [
-          "Mitad rabas, mitad aros de cebolla",
-          "$ 12500",
+          "Con aros de cebolla",
+          "$ 12000",
           ""
         ]
       ]
@@ -590,7 +590,7 @@
       [
         [
           " ",
-          "$ 9000",
+          "$ 8200",
           ""
         ]
       ]
@@ -623,17 +623,17 @@
       [
         [
           "Simple",
-          "$ 9600",
+          "$ 9000",
           ""
         ],
         [
           "Doble",
-          "$ 10800",
+          "$ 10200",
           ""
         ],
         [
           "Triple",
-          "$ 12500",
+          "$ 11500",
           ""
         ]
       ]
@@ -649,7 +649,7 @@
         ],
         [
           "Braseada a la porter",
-          "$ 13000",
+          "$ 12500",
           ""
         ],
         [
@@ -670,12 +670,12 @@
         ],
         [
           "Napo\n<p class=\"mini\">Tomate, , jamón, muzza</p>",
-          "$ 13000",
+          "$ 12500",
           ""
         ],
         [
           "HUELGA\n<p class=\"mini\">Cheddar, panceta, bbq</p>",
-          "$ 13000",
+          "$ 12500",
           ""
         ]
       ]
@@ -686,7 +686,7 @@
       [
         [
           "Con 4 ingredientes",
-          "$ 13000",
+          "$ 12500",
           ""
         ]
       ]
@@ -707,7 +707,7 @@
       "De México a HUELGA",
       [
         [
-          "3 tacos:<br> Carne con picante, pollo con cheddar, cerdo con bbq",
+          "Carne con picante, pollo con cheddar, cerdo con bbq",
           "$ 8500",
           ""
         ]
@@ -743,12 +743,12 @@
       [
         [
           "Manzana al ron",
-          "$ 6000",
+          "$ 5200",
           ""
         ],
         [
           "Dulce de leche",
-          "$ 6000",
+          "$ 5200",
           ""
         ]
       ]
@@ -761,47 +761,47 @@
       [
         [
           "HUELGA\n<p class=\"mini\">Medallón de carne, provoleta, tomate confitado, salsa Huelga</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "HUELGA Doble\n<p class=\"mini\">Doble medallón de carne, provoleta, tomate confitado, salsa Huelga</p>",
-          "$ 10200",
+          "$ 9700",
           ""
         ],
         [
           "Ballestrinque\n<p class=\"mini\">Medallón de pollo, lechuga, cebolla, salsa teriyaki</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "Calabrote\n<p class=\"mini\">Medallón de cerdo, rúcula, panceta crocante, salsa mostanesa con miel</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "Beer Elf\n<p class=\"mini\">Medallón de carne, lechuga, pepinillos, salsa Huelga</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "Bandolero\n<p class=\"mini\">Medallón de carne, cebolla caramelizada, morrón, salsa criolla, cheddar</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "Vaquera\n<p class=\"mini\">Medallón de cerdo, huevo a la plancha, champiñones, salsa bbq, mostaza con miel</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "Escota\n<p class=\"mini\">Medallón de pollo, panceta crocante, jamón, salsa cheddar</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ],
         [
           "Lasca\n<p class=\"mini\">Medallón de lentejas y calabaza, muzzarella, rúcula, salsa alioli</p>",
-          "$ 9200",
+          "$ 8600",
           ""
         ]
       ]
