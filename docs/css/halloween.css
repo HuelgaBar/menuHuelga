@@ -1,0 +1,98 @@
+
+.halloween-element {
+    position: fixed;
+    z-index: 5;
+    opacity: 0;
+	 background-color: transparent;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+    /* Aplicamos la animación general de flotación a todos los elementos */
+    animation: float 8s infinite ease-in-out alternate; 
+}
+
+.halloween-element.visible {
+    opacity: 1;
+}
+
+.bat {
+    width: 60px;
+    height: 40px;
+    background-image: url('https://huelgabar.github.io/menuHuelga/imagenes/bat.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Mantenemos la animación de vuelo si quieres un movimiento más específico para el murciélago */
+    /* animation: fly 5s infinite alternate ease-in-out, float 8s infinite ease-in-out alternate; */
+    /* O si solo quieres el "float" general, quita "fly" */
+}
+
+.spider {
+    width: 80px;
+    height: 120px;
+    background-image: url('https://huelgabar.github.io/menuHuelga/imagenes/spider.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Igual que con el murciélago, puedes combinar o usar solo float */
+    /* animation: crawl 4s infinite alternate ease-in-out, float 8s infinite ease-in-out alternate; */
+}
+
+.web {
+    width: 80px;
+    height: 80px;
+    background-image: url('https://huelgabar.github.io/menuHuelga/imagenes/pumpkin.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+/* Animaciones existentes (puedes ajustarlas o eliminarlas si solo quieres el "float") */
+/*
+@keyframes fly {
+    0% { transform: translateY(0) translateX(0) rotate(0deg); }
+    50% { transform: translateY(-10px) translateX(20px) rotate(5deg); }
+    100% { transform: translateY(0) translateX(0) rotate(0deg); }
+}
+
+@keyframes crawl {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+}
+*/
+
+/* --- NUEVA ANIMACIÓN PARA MOVIMIENTO ALEATORIO LIGERO --- */
+@keyframes float {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(calc(var(--float-x-offset) * 0.5), calc(var(--float-y-offset) * 0.7)) rotate(calc(var(--float-rotate) * 0.25));
+    }
+    50% {
+        transform: translate(var(--float-x-offset), var(--float-y-offset)) rotate(calc(var(--float-rotate) * 0.5));
+    }
+    75% {
+        transform: translate(calc(var(--float-x-offset) * 0.5), calc(var(--float-y-offset) * 0.3)) rotate(calc(var(--float-rotate) * 0.75));
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+/* 
+@media (min-width: 768px) {
+    .main-content {
+        width: 70%;
+    }
+    .bat {
+        width: 70px;
+        height: 40px;
+    }
+    .spider {
+        width: 50px;
+        height: 50px;
+    }
+    .web {
+        width: 100px;
+        height: 100px;
+    }
+} */
