@@ -34,15 +34,15 @@
         ],
         [
           "APA",
-          "4500",
-          "8800",
+          "5000",
+          "9500",
           "3500",
           "7000"
         ],
         [
           "IPA",
-          "4500",
-          "8800",
+          "5000",
+          "9500",
           "3500",
           "7000"
         ],
@@ -62,8 +62,8 @@
         ],
         [
           "Doble IPA",
-          "5000",
-          "9800",
+          "5500",
+          "11000",
           "4000",
           "8000"
         ]
@@ -524,35 +524,35 @@
       [
         [
           "Solas",
-          "7500",
+          "8000",
           "",
           "",
           ""
         ],
         [
           "Con adicional\nA elección",
-          "8600",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Salchipapas",
           "9200",
           "",
           "",
           ""
         ],
         [
+          "Salchipapas",
+          "10500",
+          "",
+          "",
+          ""
+        ],
+        [
           "Papas HUELGA\nCheddar, panceta, verdeo",
-          "10000",
+          "11500",
           "",
           "",
           ""
         ],
         [
           "Super Papas\nCheddar, panceta, verdeo, 3 huevos estrellados, provo rallado",
-          "11000",
+          "12500",
           "",
           "",
           ""
@@ -586,56 +586,56 @@
         [
           "Muzza",
           "7000",
-          "12000",
+          "12500",
           "",
           ""
         ],
         [
           "Napolitana",
           "8000",
-          "13500",
+          "14500",
           "",
           ""
         ],
         [
           "Capresse",
           "8000",
-          "13500",
+          "14500",
           "",
           ""
         ],
         [
           "Jamón y morrón",
           "8000",
-          "13500",
+          "14500",
           "",
           ""
         ],
         [
           "Roquefort",
           "8000",
-          "13500",
+          "14500",
           "",
           ""
         ],
         [
           "Rúcula",
           "8000",
-          "13500",
+          "14500",
           "",
           ""
         ],
         [
           "Provoleta",
           "8000",
-          "13500",
+          "14500",
           "",
           ""
         ],
         [
           "Cuatro Quesos",
           "8000",
-          "13500",
+          "15000",
           "",
           ""
         ],
@@ -663,7 +663,7 @@
         [
           "De la Casa\n(muzza, cheddar, cebolla caramelizada, bondiola desmenuzada, huevo a la plancha)",
           "",
-          "18000",
+          "20000",
           "",
           ""
         ]
@@ -748,7 +748,7 @@
       [
         [
           " Sale con salsa de verdeo",
-          "10500",
+          "11000",
           "",
           "",
           ""
@@ -761,7 +761,7 @@
       [
         [
           "Salen con Fritas",
-          "10000",
+          "11000",
           "",
           "",
           ""
@@ -774,14 +774,14 @@
       [
         [
           "Porción completa",
-          "14000",
+          "15500",
           "",
           "",
           ""
         ],
         [
           "Con aros de cebolla",
-          "14000",
+          "15500",
           "",
           "",
           ""
@@ -794,7 +794,7 @@
       [
         [
           " ",
-          "10500",
+          "11500",
           "",
           "",
           ""
@@ -833,21 +833,21 @@
       [
         [
           "Simple",
-          "10600",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Doble",
           "12000",
           "",
           "",
           ""
         ],
         [
+          "Doble",
+          "13500",
+          "",
+          "",
+          ""
+        ],
+        [
           "Triple",
-          "14000",
+          "15000",
           "",
           "",
           ""
@@ -867,7 +867,7 @@
         ],
         [
           "Braseada a la porter",
-          "14500",
+          "15500",
           "",
           "",
           ""
@@ -894,14 +894,14 @@
         ],
         [
           "Napo\nTomate, jamón, muzza",
-          "14500",
+          "15500",
           "",
           "",
           ""
         ],
         [
           "HUELGA\nCheddar, panceta, bbq",
-          "14500",
+          "15500",
           "",
           "",
           ""
@@ -914,7 +914,7 @@
       [
         [
           "Con 4 ingredientes",
-          "14500",
+          "15500",
           "",
           "",
           ""
@@ -927,7 +927,7 @@
       [
         [
           "Capresse",
-          "8500",
+          "10000",
           "",
           "",
           ""
@@ -940,7 +940,7 @@
       [
         [
           "Carne con picante, pollo con cheddar, cerdo con bbq",
-          "10000",
+          "11000",
           "",
           "",
           ""
@@ -1003,63 +1003,63 @@
       [
         [
           "HUELGA\nMedallón de carne, provoleta, tomate confitado, salsa Huelga",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "HUELGA Doble\nDoble medallón de carne, provoleta, tomate confitado, salsa Huelga",
-          "11500",
+          "12500",
           "",
           "",
           ""
         ],
         [
           "Ballestrinque\nMedallón de pollo, lechuga, cebolla, salsa teriyaki",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Calabrote\nMedallón de cerdo, rúcula, panceta crocante, salsa mostanesa con miel",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Beer Elf\nMedallón de carne, lechuga, pepinillos, salsa Huelga",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Bandolero\nMedallón de carne, cebolla caramelizada, morrón, salsa criolla, cheddar",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Vaquera\nMedallón de cerdo, huevo a la plancha, champiñones, salsa bbq, mostaza con miel",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Escota\nMedallón de pollo, panceta crocante, jamón, salsa cheddar",
-          "10000",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Lasca\nMedallón de lentejas y calabaza, muzzarella, rúcula, salsa alioli",
-          "10000",
+          "11000",
           "",
           "",
           ""
