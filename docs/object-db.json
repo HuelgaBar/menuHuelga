@@ -2,8 +2,15 @@
   "CERVEZAS": [
     [
       "TIRADAS",
-      " ",
+      "  ",
       [
+        [
+          "  ",
+          "Pinta",
+          "Litro",
+          "Pinta",
+          "Litro"
+        ],
         [
           "Golden",
           "5000",
