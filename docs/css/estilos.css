@@ -45,12 +45,58 @@ header {
 }
 
 h3 {
+	
+  position: relative;
+  /* isolation: isolate; */
   padding: 0.5vh 0;
   min-width: 70vw;
-  width:75%;
+  width: 75%;
   background-color: var(--bordeaux);
+  /* border: 3px solid #5c4517; */
   border-radius: 5px;
-  margin: 1vh auto;
+  margin: 1.3vh auto;
+
+}
+
+@property --angulo{
+	syntax:'<angle>';
+	inherits: false;
+	initial-value: 0deg;
+}
+
+h3::after, h3::before {
+	left:-1%;
+	top:-2%;
+	content:"";
+	background: conic-gradient(from var(--angulo), #49350f 0deg,  #49350f 65deg,
+    #49350f 115deg,
+    #49350f 245deg,
+    #8a6508 258deg,
+    #d4af37 264deg,
+    #fff1a8 268deg,
+    #fffbe6 270deg,
+    #fff1a8 272deg,
+    #d4af37 276deg,
+    #8a6508 282deg,
+    #49350f 295deg,
+    #49350f 360deg);
+	width: 101%;
+	height: 101%;
+	position: absolute;
+	padding: 3px;
+	z-index:-1;
+	border-radius: 5px;
+	animation: girar 4s linear infinite;
+}
+
+h3::before{
+	filter: blur(10px);
+	opacity: 0.8;
+}
+
+@keyframes girar{
+	0%{--angulo:0deg;}
+	100%{--angulo:360deg;}
 }
 
 h4 {
@@ -58,6 +104,7 @@ h4 {
   background-color: var(--bordeaux);
   width: 80%;
   margin: auto;
+  border: solid 2px #8a6508;
   border-radius: 5px;
   margin-top: 0.5vh;
   /* margin-bottom: 0.5vh; */
@@ -197,8 +244,8 @@ p .mini {
 }
 .portada {
   height: 20vw;
-  border: groove 5px rgba(130, 130, 130, 0.5);
-  border-radius: 5px;
+  border: groove 5px #49350f;
+  border-radius: 10px;
 }
 
 footer {
