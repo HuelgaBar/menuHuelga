@@ -402,7 +402,7 @@
         [
           "Chopp",
           "3000",
-          "5600",
+          "6000",
           "",
           ""
         ]
@@ -415,7 +415,7 @@
         [
           "Chopp",
           "3000",
-          "5600",
+          "6000",
           "",
           ""
         ]
@@ -600,7 +600,7 @@
         [
           "Muzza",
           "8000",
-          "14000",
+          "14500",
           "",
           ""
         ],
@@ -689,7 +689,7 @@
       [
         [
           "Sale con fritas",
-          "10500",
+          "11000",
           "",
           "",
           ""
@@ -834,7 +834,7 @@
       [
         [
           "Con 2 salsas...",
-          "29500",
+          "295\n\n\n29500",
           "",
           "",
           ""
@@ -847,14 +847,14 @@
       [
         [
           "Simple",
-          "14000",
+          "15000",
           "",
           "",
           ""
         ],
         [
           "Doble",
-          "16000",
+          "16500",
           "",
           "",
           ""
@@ -967,7 +967,7 @@
       [
         [
           "Caprese, Verdeo, Mostaza, Barbacoa, Tártara, Picante, Mostaza con miel, Salsa HUELGA, Teriyaki, Criolla, Alioli",
-          "2000",
+          "2500",
           "",
           "",
           ""
@@ -980,7 +980,7 @@
       [
         [
           "Cheddar, Panceta, Jamón, Queso, Champiñones, Morrón, Lechuga, Tomate, Cebolla Caramelizada, Huevo a la Plancha, Tomates Confitados, Pepinillos, Cebolla Caramelizada",
-          "2000",
+          "2500",
           "",
           "",
           ""
@@ -1017,7 +1017,7 @@
       [
         [
           "HUELGA\nMedallón de carne, provoleta, tomate confitado, salsa Huelga",
-          "13000",
+          "14000",
           "",
           "",
           ""
@@ -1031,49 +1031,49 @@
         ],
         [
           "Ballestrinque\nMedallón de pollo, lechuga, cebolla, salsa teriyaki",
-          "13000",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Calabrote\nMedallón de cerdo, rúcula, panceta crocante, salsa mostanesa con miel",
-          "13000",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Beer Elf\nMedallón de carne, lechuga, pepinillos, salsa Huelga",
-          "13000",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Bandolero\nMedallón de carne, cebolla caramelizada, morrón, salsa criolla, cheddar",
-          "13000",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Vaquera\nMedallón de cerdo, huevo a la plancha, champiñones, salsa bbq, mostaza con miel",
-          "13000",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Escota\nMedallón de pollo, panceta crocante, jamón, salsa cheddar",
-          "13000",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Lasca\nMedallón de lentejas y calabaza, muzzarella, rúcula, salsa alioli",
-          "13000",
+          "14000",
           "",
           "",
           ""
